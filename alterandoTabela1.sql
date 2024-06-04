@@ -1,0 +1,5 @@
+DESCRIBE nome_tabela;
+ALTER TABLE nome_tabela MODIFY campo1 SMALLINT NOT NULL;
+ALTER TABLE nome_tabela MODIFY campo3 VARCHAR(20) DEFAULT 'Valor padrão';
+ALTER TABLE nome_tabela MODIFY campo4 CHAR(5) NOT NULL DEFAULT 'ALWSR';
+
